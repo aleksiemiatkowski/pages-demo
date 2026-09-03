@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pages Lab | Galeria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Pages Lab, strona główna"><span class="brand-mark">PL</span><span>pages lab</span></a>
+      <nav class="nav" aria-label="Główna nawigacja"><a class="nav-link" href="index.html">Start</a><a class="nav-link active" href="gallery.html">Galeria</a><a class="nav-link" href="playground.html">Playground</a></nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Przełącz motyw">☼</button>
+    </header>
+    <main class="subpage">
+      <div class="subpage-heading"><p class="eyebrow"><span class="status-dot"></span> kolekcja / ui</p><h1>Elementy do<br><em>testowania.</em></h1><p>Mały katalog powierzchni, które możesz szybko zmieniać w CSS.</p></div>
+      <div class="filter-bar" role="group" aria-label="Filtruj elementy"><button class="filter active" type="button" data-filter="all">Wszystko</button><button class="filter" type="button" data-filter="surface">Powierzchnie</button><button class="filter" type="button" data-filter="type">Typografia</button></div>
+      <section class="gallery-grid">
+        <article class="sample-card sample-dark" data-category="surface"><div class="sample-meta"><span>surface / 01</span><span class="sample-pill">dark</span></div><div class="sample-content"><span class="sample-icon">✦</span><h2>Night mode</h2><p>Ciemna powierzchnia do sprawdzania kontrastu i czytelności.</p></div></article>
+        <article class="sample-card sample-acid" data-category="surface"><div class="sample-meta"><span>surface / 02</span><span class="sample-pill">bright</span></div><div class="sample-content"><span class="sample-icon">↗</span><h2>Acid note</h2><p>Wyrazisty akcent dla statusów, CTA i ważnych komunikatów.</p></div></article>
+        <article class="sample-card sample-type" data-category="type"><div class="sample-meta"><span>type / 01</span><span class="sample-pill">display</span></div><div class="sample-content"><p class="giant-type">Aa</p><h2>Space Grotesk</h2><p>Geometryczna rodzina do nagłówków i krótkich komunikatów.</p></div></article>
+        <article class="sample-card sample-code" data-category="type"><div class="sample-meta"><span>type / 02</span><span class="sample-pill">mono</span></div><div class="sample-content"><p class="code-line">&lt;pages <span>ready</span> /&gt;</p><h2>DM Mono</h2><p>Techniczny rytm dla etykiet, danych i fragmentów kodu.</p></div></article>
+      </section>
+    </main>
+    <footer class="footer"><span>pages lab / 2026</span><span>gallery.html</span></footer>
+  </div>
+</body>
+</html>

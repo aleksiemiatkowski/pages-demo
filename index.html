@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mały poligon do testowania GitHub Pages.">
+  <title>Pages Lab | Start</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Pages Lab, strona główna">
+        <span class="brand-mark">PL</span>
+        <span>pages lab</span>
+      </a>
+      <nav class="nav" aria-label="Główna nawigacja">
+        <a class="nav-link active" href="index.html">Start</a>
+        <a class="nav-link" href="gallery.html">Galeria</a>
+        <a class="nav-link" href="playground.html">Playground</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Przełącz motyw">☼</button>
+    </header>
+
+    <main>
+      <section class="hero page-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> github pages / online</p>
+          <h1>Mały poligon.<br><em>Dużo możliwości.</em></h1>
+          <p class="hero-lead">Prosta strona do sprawdzania wdrożeń, ścieżek, stylów i skryptów na GitHub Pages.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="playground.html">Uruchom playground <span>↗</span></a>
+            <a class="text-link" href="gallery.html">Zobacz elementy <span>→</span></a>
+          </div>
+        </div>
+        <div class="hero-console" aria-label="Podgląd struktury projektu">
+          <div class="console-top"><span></span><span></span><span></span><code>~/pages-demo</code></div>
+          <div class="console-body">
+            <p><b class="pink">01</b> <span class="cyan">const</span> project = <span class="yellow">"pages-lab"</span>;</p>
+            <p><b class="pink">02</b> project.<span class="cyan">status</span> = <span class="green">"ready"</span>;</p>
+            <p><b class="pink">03</b> <span class="cyan">await</span> deploy(project);</p>
+            <p class="console-cursor"><b class="pink">04</b> <span>_</span></p>
+          </div>
+          <div class="console-footer"><span>● build passed</span><span>main / 3 files</span></div>
+        </div>
+      </section>
+
+      <section class="feature-section page-grid">
+        <div class="section-label"><span>01</span><p>co tu jest</p></div>
+        <div class="feature-list">
+          <article class="feature-row"><span class="feature-number">A</span><div><h2>Trzy niezależne widoki</h2><p>Każdy plik działa samodzielnie i korzysta ze wspólnych zasobów.</p></div><span class="feature-arrow">↗</span></article>
+          <article class="feature-row"><span class="feature-number">B</span><div><h2>CSS bez frameworka</h2><p>Responsywny layout, jasny i ciemny motyw oraz kilka charakterystycznych detali.</p></div><span class="feature-arrow">↗</span></article>
+          <article class="feature-row"><span class="feature-number">C</span><div><h2>JavaScript do dotykania</h2><p>Losuj kolor, testuj przycisk i obserwuj zmiany bez żadnego backendu.</p></div><span class="feature-arrow">↗</span></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>pages lab / 2026</span><span>zbudowane dla github pages</span></footer>
+  </div>
+</body>
+</html>
